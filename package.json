@@ -1,0 +1,20 @@
+{
+  "name": "discord-hookclient",
+  "version": "0.0.0",
+  "description": "discord-hookclient is a new and lightweight wrapper for the Discord API's webhook feature.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webhook",
+    "discord-hook",
+    "discord",
+    "discord-webhookclient"
+  ],
+  "author": "FHGDev",
+  "license": "MIT",
+  "dependencies": {
+    "snekfetch": "^4.0.4"
+  }
+}
