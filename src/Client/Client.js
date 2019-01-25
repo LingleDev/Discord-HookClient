@@ -31,7 +31,7 @@ class Webhook extends EventEmitter {
         .then(r => {
 
                 if (r.body.code == null) {
-                    this.emit("finish", "WEBHOOK_S  qEND_COMPLETE")
+                    this.emit("finish", "WEBHOOK_SEND_COMPLETE")
                 }
 
                 if (r.body.code == 50027) {
