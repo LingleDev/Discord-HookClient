@@ -1,13 +1,13 @@
 # discord-hookclient
-    A new and lightweight wrapper for Discord's webhook feature.
+ A new and lightweight wrapper for Discord's webhook feature.
 
 
 # Getting started
 
-    Hmm. Are you wondering how you would use this library?
-    I'll show you how.
+Hmm. Are you wondering how you would use this library?
+I'll show you how.
 
-    ```js
+ ```js
         const hookclient = require('discord-hookclient')
         const webhook = new hookclient.WebhookClient('your-webhook-id', 'your-webhook-token')
 
@@ -31,8 +31,7 @@
         })
 
         webhook.send(options) // Returns null, since Discord does not provide a response for the POST request.
-    ```
-
+```
 # Info
 
 View the docs [here](https://discord-hooks.js.org/intro "docs are in progress")(in progress)
